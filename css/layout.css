@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
-  background: url("http://cdn.yangxiang.cc/bg-cover.jpeg") repeat;
+  background: url("/imgs/bg-cover.jpeg") repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   padding-top: 100px;
@@ -39,7 +39,7 @@
   opacity: 0.8;
   left: 0;
   top: 0;
-  background: url("http://cdn.yangxiang.cc/top-cover.jpeg") no-repeat;
+  background: url("/imgs/top-cover.jpeg") no-repeat;
   background-size: cover;
 }
 .header-wrapper {
@@ -208,7 +208,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url("http://cdn.yangxiang.cc/avatar-bg.jpeg") no-repeat;
+  background: url("/imgs/avatar-bg.jpeg") no-repeat;
   background-size: cover;
 }
 .main-left--avatar {
