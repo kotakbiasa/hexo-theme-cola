@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "social";
+  src: url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff2") format('woff2'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff") format('woff'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.ttf") format('truetype');
+}
+.iconfont {
+  font-family: "social" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-insta:before {
+  content: "\e044";
+}
+.icon-mail:before {
+  content: "\e050";
+}
+.icon-github:before {
+  content: "\e032";
+}
+.icon-telegram:before {
+  content: "\e087";
+}
+.icon-pinglun:before {
+  content: "\e891";
+}
