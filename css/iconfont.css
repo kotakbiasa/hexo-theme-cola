@@ -1,30 +1,13 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3154783 */
   src: url("//at.alicdn.com/t/font_3154783_wfky5e46frl.woff2?t=1646309773831") format('woff2'), url("//at.alicdn.com/t/font_3154783_wfky5e46frl.woff?t=1646309773831") format('woff'), url("//at.alicdn.com/t/font_3154783_wfky5e46frl.ttf?t=1646309773831") format('truetype');
-  font-family: "social-icon";
-  src: url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff2") format('woff2'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff") format('woff'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.ttf") format('truetype');
 }
 .iconfont {
-  font-family: "iconfont", "social-icon" !important;
+  font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.icon-insta:before {
-  content: "\e044";
-}
-.icon-mail:before {
-  content: "\e050";
-}
-.icon-github:before {
-  content: "\e032";
-}
-.icon-telegram:before {
-  content: "\e087";
-}
-.icon-pinglun:before {
-  content: "\e891";
 }
 .icon-youqinglianjie:before {
   content: "\e636";
