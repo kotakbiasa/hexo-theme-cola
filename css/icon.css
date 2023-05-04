@@ -3,7 +3,7 @@
   src: url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff2") format('woff2'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.woff") format('woff'), url("https://raw.githubusercontent.com/themegrill/social-icons/master/assets/fonts/Socicon.ttf") format('truetype');
 }
 .iconfont {
-  font-family: "social" !important;
+  font-family: "social";
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +20,4 @@
 }
 .icon-telegram:before {
   content: "\e087";
-}
-.icon-pinglun:before {
-  content: "\e891";
 }
