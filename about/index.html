@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——about | Hexo</title>
+  <title>Tentang Saya</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="../imgs/shortcut-icon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="http://cdn.yangxiang.cc/public.css" />
-  <link rel="stylesheet" href="http://cdn.yangxiang.cc/layout.css" />
-  <link rel="stylesheet" href="http://cdn.yangxiang.cc/iconfont.css" />
-  <link rel="stylesheet" href="http://cdn.yangxiang.cc/APlayer.min.css" />
-  <script src="http://cdn.yangxiang.cc/APlayer.min.js"></script>
-  <script src="http://cdn.yangxiang.cc/jquery.min.js"></script>
-  <script src="http://cdn.yangxiang.cc/jquery.pjax.min.js"></script>
+  <link rel="stylesheet" href="/css/public.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="/css/APlayer.min.css" />
+  <script src="/js/APlayer.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery.pjax.min.js"></script>
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——about`
+    document.title = `Tentang Saya`
   </script>
 <meta name="generator" content="Hexo 6.0.0"></head>
 
@@ -127,7 +127,7 @@
   }
 </style>
 <body>
-  <div id="load" class="load">
+  <!-- <div id="load" class="load">
     <div class="load-circle">
       <div class="load-circle-inner"></div>
     </div>
@@ -140,19 +140,19 @@
       <span>N</span>
       <span>G</span>
     </p>
-  </div>
+  </div> -->
   <div id="container" class="container w-100 vh-100" style="display: none;">
     <header class="header">
   <div class="header-wrapper">
     <div class="header-left">
       <div class="header-search">
-        <input id="search-input" type="text" class="header-search--input" placeholder="请输入要检索的文章标题" />
-        <span id="search-btn" class="header-search--icon"><i class="iconfont icon-sousuo"></i></span>
+        <input id="search-input" type="text" class="header-search--input" placeholder="Search" />
+        <span id="search-btn" class="header-search--icon"><i class="bi bi-search"></i></span>
       </div>
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
-          <span>以下是搜索内容：</span>
-          <span id="close-layer-btn">关闭</span>
+          <span>Hasil Pencarian：</span>
+          <span id="close-layer-btn">tutup</span>
         </p>
         <ul>
         </ul>
@@ -161,27 +161,33 @@
     <div class="header-right">
       <ul class="header-menu">
         <li>
-          <a href="https://aizener.github.io/">
-            <i class="header-menu--icon iconfont icon-shouye"></i>
-            <span class="header-menu--span">首页</span>
+          <a href="/">
+            <i class="bi bi-house-door"></i>
+            <span class="header-menu--span">Beranda</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/log">
-            <i class="header-menu--icon iconfont icon-rizhi"></i>
-            <span class="header-menu--span">日志</span>
+          <a href="/log">
+            <i class="bi bi-journal-bookmark"></i>
+            <span class="header-menu--span">Note</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/link">
-            <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
-            <span class="header-menu--span">友情链接</span>
+          <a href="/link">
+            <i class="bi bi-link-45deg"></i>
+            <span class="header-menu--span">Link</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/about">
-            <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-            <span class="header-menu--span">关于我</span>
+          <a href="/about">
+            <i class="bi bi-file-person"></i>
+            <span class="header-menu--span">Tentang Saya</span>
+          </a>
+        </li>
+        <li>
+          <a href="/tools">
+            <i class="bi bi-pencil-square"></i>
+            <span class="header-menu--span">Alat</span>
           </a>
         </li>
       </ul>
@@ -235,43 +241,44 @@
 <div class="main-left">
   <div class="main-left--block">
     <div class="main-left--info">
-      <img src="http://cdn.yangxiang.cc/avatar-bg.jpeg"" class="main-left--avatar" />
+      <img src="/imgs/avatar-bg.jpeg"" class="main-left--avatar" />
       <div class="main-left--intro">
-        <p class="main-left--name">Cola.</p>
+        <p class="main-left--name">Kotak Biasa</p>
         <div class="main-left--tags">
-          <span class="main-left--tag">中二</span>
-          <span class="main-left--tag">宅</span>
+          <span class="main-left--tag">Hanya</span>
+          <span class="main-left--tag">Orang</span>
+          <span class="main-left--tag">Biasa</span>
         </div>
       </div>
     </div>
   
     <div>
       <div class="main-left--motto">
-        <p>“花有重开日，人无再少年”</p>
-        <p>“一个简单普通的男孩”</p>
+        <p>“Teruslah berjuang walaupun itu mustahil.”</p>
+        <p>“Minene Uryuu”</p>
       </div>
       <div class="main-left--github">
         <span class="line"></span>
-        <a target="_blank" rel="noopener" href="https://github.com/Aizener"><i class="logo iconfont icon-github-fill"></i></a>
+        <a target="_blank" rel="noopener" href="https://github.com/kotakbiasa"><i class="bi bi-github"></i></a>
         <span class="line"></span>
       </div>
       <div class="main-left--statics">
         <a href="/categories">
           <div>
-            <span>2</span>
-            <span>分类</span>
+            <span>0</span>
+            <span>Kategori</span>
           </div>
         </a>
         <a href="/tags">
           <div>
-            <span>7</span>
-            <span>标签</span>
+            <span>0</span>
+            <span>Tag</span>
           </div>
         </a>
         <a href="/archives">
           <div>
-            <span>4 </span>
-            <span>归档</span>
+            <span>0</span>
+            <span>Arsip</span>
           </div>
         </a>
       </div>
@@ -282,67 +289,37 @@
     <ul class="main-left--menu">
       
         <li>
-          <a href="/">
-            <span class="header-menu--span">小站首页</span>
-            <i class="header-menu--icon iconfont icon-shouye"></i>
+          <a href="https://www.facebook.com/muhnurfauzan.17/">
+            <i class="bi bi-facebook"></i>
+            <span class="header-menu--span">Facebook</span>
           </a>
         </li>
       
         <li>
-          <a href="/log">
-            <span class="header-menu--span">个人日志</span>
-            <i class="header-menu--icon iconfont icon-rizhi"></i>
+          <a href="https://t.me/kotakbiasa">
+            <i class="bi bi-telegram"></i>
+            <span class="header-menu--span">Telegram</span>
           </a>
         </li>
       
         <li>
-          <a href="/link">
-            <span class="header-menu--span">友情链接</span>
-            <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
+          <a href="https://instagram.com/muhnurfauzan_">
+            <i class="bi bi-instagram"></i>
+            <span class="header-menu--span">Instagram</span>
           </a>
         </li>
       
         <li>
-          <a href="/about">
-            <span class="header-menu--span">关于自己</span>
-            <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-          </a>
-        </li>
-      
-        <li>
-          <a href="/tools">
-            <span class="header-menu--span">我的工具</span>
-            <i class="header-menu--icon iconfont icon-gongju"></i>
+          <a href="mailto:admin@fauzan.tech">
+            <i class="bi bi-envelope"></i>
+            <span class="header-menu--span">Email</span>
           </a>
         </li>
       
     </ul>
   </div>
 
-  <div class="main-left--block">
-    <div class="main-left--site">
-      <h5 class="main-left--title">
-        <span>站点信息</span>
-        <i class="iconfont icon-zhandian"></i>
-      </h5>
-      <p class="main-left--subtitle">
-        <span>文章数目：</span>
-        <span>6 篇</span>
-      </p>
-      <p class="main-left--subtitle">
-        <span>最近动态：</span>
-        <span>4月前</span>
-      </p>
-      <p class="main-left--subtitle">
-        <span>上线时间：</span>
-        <span>360天</span>
-      </p>
-      <p class="main-left--subtitle">
-        <span>当前版本：</span>
-        <span>v1.0.2</span>
-      </p>
-    </div>
-  </div>
+  
 </div></div>
       <div id="main-container" class="main-container">
 
@@ -350,25 +327,19 @@
   <div class="about">
   <div class="about-top">
     <div class="about-title">
-      <h2>关于我</h2>
+      <h2>Tentang Saya</h2>
     </div>
     <div class="about-info">
       <img class="about-avatar" src="../imgs/avatar.jpg" alt="">
       <div class="about-detail">
         
-          <p>姓名：杨祥</p>
+          <p>Nama ：Muhammad Nur Fauzan</p>
         
-          <p>年龄：25</p>
+          <p>Umur ：25</p>
         
-          <p>性别：♂</p>
+          <p>Asal ：Indonesia</p>
         
-          <p>家乡：四川省雅安市某小镇</p>
-        
-          <p>现居住地：四川省成都市武侯区</p>
-        
-          <p>职业：Web前端开发</p>
-        
-          <p>喜欢：打游戏，游泳，下象棋</p>
+          <p>Hobi : Main Game, Nonton Film, Putar Musik.</p>
         
       </div>
     </div>
@@ -385,11 +356,11 @@
       <div class="main-right-wrapper"><div class="main-right">
   <div class="main-right--board">
     <div class="main-right--title">
-      <h5>公告栏</h5>
-      <i class="iconfont icon-gonggao"></i>
+       <h5>Informasi</h5>
+      <i class="bi bi-card-heading"></i>
     </div>
     <div class="main-right--content">
-      Hello~大噶好。唔系可乐爱宅着，欢迎你们来到我的博客小站，希望能在这里收获到有用的东西哦！ 
+      Halo, selamat datang di website saya！ 
     </div>
   </div>
 
@@ -397,13 +368,13 @@
 
   <div class="operate-items">
     <div class="operate-item backtop">
-      <i class="iconfont icon-huidaodingbu"></i>
-      <span>回到顶部</span>
+      <i class="bi bi-box-arrow-in-up"></i>
+      <span>Naik</span>
     </div>
     
     <div class="operate-item turn-comment hidden">
-      <i class="iconfont icon-pinglun"></i>
-      <span>查看评论</span>
+      <i class="bi bi-chat-dots"></i>
+      <span>Komentar</span>
     </div>
     
   </div>
