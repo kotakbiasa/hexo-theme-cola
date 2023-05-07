@@ -127,7 +127,7 @@
   }
 </style>
 <body>
-  <div id="load" class="load">
+  <!-- <div id="load" class="load">
     <div class="load-circle">
       <div class="load-circle-inner"></div>
     </div>
@@ -140,19 +140,19 @@
       <span>N</span>
       <span>G</span>
     </p>
-  </div>
+  </div> -->
   <div id="container" class="container w-100 vh-100" style="display: none;">
     <header class="header">
   <div class="header-wrapper">
     <div class="header-left">
       <div class="header-search">
-        <input id="search-input" type="text" class="header-search--input" placeholder="请输入要检索的文章标题" />
-        <span id="search-btn" class="header-search--icon"><i class="iconfont icon-sousuo"></i></span>
+        <input id="search-input" type="text" class="header-search--input" placeholder="Search" />
+        <span id="search-btn" class="header-search--icon"><i class="bi bi-search"></i></span>
       </div>
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
-          <span>以下是搜索内容：</span>
-          <span id="close-layer-btn">关闭</span>
+          <span>Hasil Pencarian：</span>
+          <span id="close-layer-btn">tutup</span>
         </p>
         <ul>
         </ul>
@@ -161,27 +161,33 @@
     <div class="header-right">
       <ul class="header-menu">
         <li>
-          <a href="https://aizener.github.io/">
-            <i class="header-menu--icon iconfont icon-shouye"></i>
-            <span class="header-menu--span">首页</span>
+          <a href="/">
+            <i class="bi bi-house-door"></i>
+            <span class="header-menu--span">Beranda</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/log">
-            <i class="header-menu--icon iconfont icon-rizhi"></i>
-            <span class="header-menu--span">日志</span>
+          <a href="/log">
+            <i class="bi bi-journal-bookmark"></i>
+            <span class="header-menu--span">Note</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/link">
-            <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
-            <span class="header-menu--span">友情链接</span>
+          <a href="/link">
+            <i class="bi bi-link-45deg"></i>
+            <span class="header-menu--span">Link</span>
           </a>
         </li>
         <li>
-          <a href="https://aizener.github.io/about">
-            <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-            <span class="header-menu--span">关于我</span>
+          <a href="/about">
+            <i class="bi bi-file-person"></i>
+            <span class="header-menu--span">Tentang Saya</span>
+          </a>
+        </li>
+        <li>
+          <a href="/tools">
+            <i class="bi bi-pencil-square"></i>
+            <span class="header-menu--span">Alat</span>
           </a>
         </li>
       </ul>
